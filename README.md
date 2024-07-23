@@ -16,6 +16,7 @@ vim docker-compose.yml
 
 # 将下面的内容复制到docker-compose.yml中
 
+"
 name: quilibrium
 
 services:
@@ -52,6 +53,7 @@ services:
       options:
         max-file: "5"
         max-size: 2048m
+"
 
 # 复制完成后 ctr + c 再 :wq  保存文件
 
