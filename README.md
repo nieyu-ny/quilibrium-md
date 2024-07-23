@@ -15,9 +15,7 @@ cd $HONE/quili
 vim docker-compose.yml
 
 # 将下面的内容复制到docker-compose.yml中
-server:
-    port: 8080
-    path: /hello
+
 "
 name: quilibrium
 
