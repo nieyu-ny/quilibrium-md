@@ -19,9 +19,6 @@ vim docker-compose.yml
 
 name: quilibrium
 
-# See sysctl related warning in DOCKER-README.md.
-# Host configuration changes are required.
-
 services:
   node:
     image: mscurtescu/ceremonyclient:latest
