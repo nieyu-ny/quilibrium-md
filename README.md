@@ -1,5 +1,4 @@
-# quilibrium-md
-1、检查是否安装docker
+# 1、检查是否安装docker
 
 docker --version
 
@@ -7,7 +6,7 @@ docker --version
 
 curl -fsSL https://get.docker.com | bash -s docker
 
-2、创建docker构建文件
+# 2、创建docker构建文件
 
 mkdir -p $HONE/quili
 
@@ -56,11 +55,11 @@ services:
 
 # 复制完成后 ctr + c 再 :wq  保存文件
 
-5、启动quilibrium
+# 3、启动quilibrium
 
 docker compose up -d
 
-6、查看启动日志
+# 4、查看启动日志
 
 docker ps -a
 
